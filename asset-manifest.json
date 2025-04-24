@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ThomasBeaupre.github.io/static/css/main.17793d1f.css",
-    "main.js": "/ThomasBeaupre.github.io/static/js/main.26f38ad6.js",
+    "main.js": "/ThomasBeaupre.github.io/static/js/main.d530ac7b.js",
     "index.html": "/ThomasBeaupre.github.io/index.html",
     "main.17793d1f.css.map": "/ThomasBeaupre.github.io/static/css/main.17793d1f.css.map",
-    "main.26f38ad6.js.map": "/ThomasBeaupre.github.io/static/js/main.26f38ad6.js.map"
+    "main.d530ac7b.js.map": "/ThomasBeaupre.github.io/static/js/main.d530ac7b.js.map"
   },
   "entrypoints": [
     "static/css/main.17793d1f.css",
-    "static/js/main.26f38ad6.js"
+    "static/js/main.d530ac7b.js"
   ]
 }
