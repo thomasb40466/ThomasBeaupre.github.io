@@ -1,139 +1,37 @@
-/* Reset and Base Styling */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thomas Beaupre Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact Me</a>
+  </nav>
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #121212;
-  color: #f0f0f0;
-  line-height: 1.6;
-}
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-image">
+        <img src="images/thomas-beaupre.png" alt="Thomas Beaupre at AbbVie" />
+      </div>
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="highlight">Thomas Beaupre</span></h1>
+        <h2>Knowledge Graph Engineer @ AbbVie</h2>
+        <p>I build intelligent systems that make data easier to explore, navigate, and understand. My work focuses on simplifying complex ecosystems through automation, AI, and knowledge graphs.</p>
+        <div class="button-group">
+          <a class="btn" href="https://drive.google.com/file/d/1Gif4eyBmiN0-eou6-4WH9_UE1C9P1d5v/view?usp=sharing" target="_blank">📄 Download Resume</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/thomas-beaupre-15a68722b/" target="_blank">💼 LinkedIn Profile</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-nav {
-  background-color: #1f1f1f;
-  padding: 1rem;
-  text-align: center;
-  position: sticky;
-  top: 0;
-}
-
-nav a {
-  color: #fff;
-  margin: 0 1rem;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-nav a:hover {
-  color: #bb86fc;
-}
-
-/* Hero Section */
-.hero {
-  padding: 4rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 80vh;
-}
-
-.hero-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 3rem;
-}
-
-.hero-image img {
-  max-width: 300px;
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
-  transition: transform 0.3s ease;
-}
-
-.hero-image img:hover {
-  transform: scale(1.05);
-}
-
-.hero-text {
-  max-width: 500px;
-  text-align: left;
-}
-
-.hero-text h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.hero-text h2 {
-  font-size: 1.5rem;
-  color: #bbbbbb;
-  margin-bottom: 1rem;
-}
-
-.hero-text p {
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.highlight {
-  color: #bb86fc;
-}
-
-.button-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.btn {
-  background-color: #bb86fc;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #985eff;
-  transform: translateY(-3px);
-}
-
-.btn.secondary {
-  background-color: #03dac6;
-}
-
-.btn.secondary:hover {
-  background-color: #00bfa5;
-}
-
-/* Footer */
-footer {
-  background-color: #1f1f1f;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-  margin-top: 4rem;
-}
-
-/* Responsive Behavior */
-@media (max-width: 768px) {
-  .hero-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-text {
-    text-align: center;
-  }
-}
+  <footer>
+    <p>&copy; 2025 Thomas Beaupre. All rights reserved.</p>
+  </footer>
+</body>
+</html>
