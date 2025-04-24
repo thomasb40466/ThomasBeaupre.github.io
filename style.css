@@ -143,12 +143,12 @@
 
 /* Projects Page */
 .projects {
-    padding: 2rem 2rem;
+    padding: 4rem 2rem;
     text-align: center;
   }
   
   .projects-title {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 3rem;
     color: #bb86fc;
   }
@@ -156,8 +156,8 @@
   /* 2x2 Grid Layout */
   .project-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Fixed 2x2 grid */
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2rem;
     justify-items: center;
     padding: 0 2rem;
   }
