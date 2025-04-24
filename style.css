@@ -141,21 +141,23 @@
 
 
 
-  /* Project Page Styles */
+ /* Projects Page */
 .projects {
     padding: 4rem 2rem;
     text-align: center;
   }
   
-  .projects h1 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
+  .projects-title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: #bb86fc;
   }
   
   .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* Fixed 2x2 grid on desktop */
     gap: 2rem;
+    justify-items: center;
     padding: 0 2rem;
   }
   
@@ -164,6 +166,8 @@
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 400px; /* Keeps cards a nice size */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
@@ -179,6 +183,7 @@
   
   .project-card p {
     margin-bottom: 1.5rem;
+    color: #ddd;
   }
   
   .project-card .btn {
@@ -188,7 +193,6 @@
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
-    display: inline-block;
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
   
@@ -197,10 +201,10 @@
     transform: translateY(-3px);
   }
   
-  /* Responsive Adjustments */
+  /* Responsive for Mobile */
   @media (max-width: 768px) {
     .project-grid {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr; /* Stack on mobile */
     }
   }
   
