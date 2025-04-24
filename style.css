@@ -157,7 +157,7 @@
   .project-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Fixed 2x2 grid */
-    gap: 2rem;
+    gap: 1rem;
     justify-items: center;
     padding: 0 2rem;
   }
